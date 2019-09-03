@@ -1,0 +1,8 @@
+<h2>Available Offers</h2>
+<ul class="Offers">
+    <li *ngFor="let offer of offersAvailable">
+        <a routerLink="/detail/{{offer.offerId}}">
+            {{offer.offerName}}
+        </a>
+    </li>
+</ul>

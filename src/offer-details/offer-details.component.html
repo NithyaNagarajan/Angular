@@ -1,0 +1,10 @@
+<div *ngIf="offer">
+    <h2>{{offer.offerName | uppercase}} Details</h2>
+    <div><span>Offer Code: </span>{{offer.offerId}}</div>
+    <div>
+        <label>Offer Description:
+            <!--span [(ngModel)]="offer.offerName" placeholder="Offer Description" /-->
+            <span class="badge">{{offer.offerName}}</span>
+        </label>
+    </div>
+</div> 
