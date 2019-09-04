@@ -4,10 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This application allows the user to navigate between pages that show monthly offers and all the available offers  and displays the details of the offer on selection.
 
-It has 3 components:
-1. offers: Displays all the available offers. 
-3. monthly-special-offers: 
-3. offer-details:
+1.  It has 3 components:
+    --> offers: Displays all the available offers. 
+    --> monthly-special-offers: 
+    --> offer-details: Displays the offer details - Offer Id and Offer Name 
+
+2. offer.service is used to fetch the mock data to show available/monthly offers.
+3. Offer class is exported and used across the components and has the basic structure for each offer.
+4. app-routing.module.ts has all the routing logic. Has the paths to the different components that need to be loaded on navigation.
+5. AppComponent is the bootstrapped module and is the root component that is loaded.
 
 
 
