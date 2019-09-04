@@ -13,6 +13,7 @@ This application allows the user to navigate between pages that show monthly off
 3. Offer class is exported and used across the components and has the basic structure for each offer.
 4. app-routing.module.ts has all the routing logic. Has the paths to the different components that need to be loaded on navigation.
 5. AppComponent is the bootstrapped module and is the root component that is loaded.
+6. Bootstrap CSS file included in index.html to render the application in boostrap theme.
 
 
 
