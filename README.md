@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
+This application allows the user to navigate between pages that show monthly offers and all the available offers  and displays the details of the offer on selection.
+
+It has 3 components:
+1. offers: Displays all the available offers. 
+3. monthly-special-offers: 
+3. offer-details:
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
