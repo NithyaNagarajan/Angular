@@ -9,7 +9,7 @@ This application allows the user to navigate between pages that show monthly off
     --> monthly-special-offers: 
     --> offer-details: Displays the offer details - Offer Id and Offer Name 
 
-2. offer.service is used to fetch the mock data to show available/monthly offers.
+2. offer.service is used to fetch the mock data to show available/monthly offers. It is injected into the components to fetch data as      required. 
 3. Offer class is exported and used across the components and has the basic structure for each offer.
 4. app-routing.module.ts has all the routing logic. Has the paths to the different components that need to be loaded on navigation.
 5. AppComponent is the bootstrapped module and is the root component that is loaded.
