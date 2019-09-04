@@ -6,7 +6,7 @@ This application allows the user to navigate between pages that show monthly off
 
 1.  It has 3 components:
     --> offers: Displays all the available offers. 
-    --> monthly-special-offers: 
+    --> monthly-special-offers: Displays the offers specific to the month.
     --> offer-details: Displays the offer details - Offer Id and Offer Name 
 
 2. offer.service is used to fetch the mock data to show available/monthly offers. It is injected into the components to fetch data as      required. 
